@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Mariló
  */
-public class Ejercicio4 {
+public class DigitosParesYSuma {
     public static void main(String[] args) {
         
         System.out.println("Introduce un número: ");

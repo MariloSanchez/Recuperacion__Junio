@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Mariló
  */
-public class Ejercicio3 {
+public class ArrayColoresPrincipio {
     public static void main (String [] args) {
         
         //Creo el array de colores

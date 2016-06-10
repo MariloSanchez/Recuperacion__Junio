@@ -9,7 +9,7 @@ package examen2;
  *
  * @author Mariló
  */
-public class Ejercicio3 {
+public class MaquinaTragaperras {
     public static void main (String [] args) {
         String figura1 = "";
         String figura2 = "";

@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Mariló
  */
-public class Ejercicio2 {
+public class FaltaParaFinDeSemana {
     public static void main (String [] args) {
         
         System.out.println("¿Cuánto falta para el fin de semana?");

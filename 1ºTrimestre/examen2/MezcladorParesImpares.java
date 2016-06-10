@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Mariló
  */
-public class Ejercicio4 {
+public class MezcladorParesImpares {
     public static void main (String [] args) {
         
         System.out.print (" Introduce un número entero: ");

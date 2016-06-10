@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Mariló
  */
-public class Ejercicio4 {
+public class ColocarClientesMesas {
     public static void main (String [] args) {
         
         int [] mesa = new int [10];

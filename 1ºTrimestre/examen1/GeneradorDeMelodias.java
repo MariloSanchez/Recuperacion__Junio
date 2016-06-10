@@ -9,7 +9,7 @@ package examen1;
  *
  * @author Mariló
  */
-public class Ejercicio3 {
+public class GeneradorDeMelodias {
     public static void main(String[] args) {
         
         System.out.println("GENERADOR DE MELODIAS");

@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Mariló
  */
-public class Ejercicio2 {
+public class ArrayMaximoMinimo {
     public static void main (String [] args) {
         
         int num [] = new int [10];

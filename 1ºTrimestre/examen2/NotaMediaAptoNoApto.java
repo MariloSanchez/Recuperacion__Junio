@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Mariló
  */
-public class Ejercicio1 {
+public class NotaMediaAptoNoApto {
     public static void main (String [] args) {
         System.out.print ("Introduce la nota de tu primer examen de programación: ");
         Scanner s = new Scanner (System.in);

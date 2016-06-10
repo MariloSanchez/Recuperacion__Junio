@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Mariló
  */
-public class Ejercicio1 {
+public class NotaDebeSacarSegundoEx {
     public static void main (String [] args) {
         
         System.out.print("Introduzca la nota del primer examen: ");

@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Mariló
  */
-public class Ejercicio1 {
+public class ArrayMultiplosCincoYSiete {
     public static void main (String [] args) {
         
         int numero [] = new int [20];
