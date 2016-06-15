@@ -20,35 +20,33 @@ public class MinimosFilasMaximosColumnas {
             }
         }  
         
-        int columnaMinimo = 101;
-        int filaMaximo = 0;
+        int columnaMaximo = 0;
+        int filaMinimo = 101;
         
         //Maximo de las filas
         for (int i = 0; i < 4; i++){
-            filaMaximo = 0;
+            filaMinimo = 101;
             for (int j = 0; j < 6; j++){
                 System.out.printf("%5d" , array[i][j]);
-                if (filaMaximo < array[i][j]){
-                    filaMaximo = array[i][j];
-                }
-                    if (j == 5){
-                        System.out.printf("|%5d" , filaMaximo);
-                    }
-                }
-              System.out.println();
-            } 
+                if (filaMinimo > array[i][j]){
+                    filaMinimo = array[i][j];
+                }                                                             
+            }
+            System.out.printf("|%5d" , filaMinimo);
+            System.out.println();
+        } 
           
    
         //Minimo Columnas       
         System.out.println("-------------------------------");  
         for (int j = 0; j < 6; j++){
-            columnaMinimo = 101;
+            columnaMaximo = 0;
             for (int i = 0; i < 4; i++){
-                if (columnaMinimo > array[i][j]){
-                    columnaMinimo = array [i][j];
+                if (columnaMaximo < array[i][j]){
+                    columnaMaximo = array [i][j];
                 }
             }
-            System.out.printf("%5d", columnaMinimo);
+            System.out.printf("%5d", columnaMaximo);
         }
     }
 }
