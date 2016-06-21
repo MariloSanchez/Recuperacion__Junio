@@ -26,21 +26,24 @@ public class HashMapColores {
         String[] color = {"#0000ff","#000000","#ff0000","#ffffff","#008000","#800080","#ffff00","#ffa500","#ee82ee"};
         String[] spain = {"azul","negro","rojo","blanco","verde","morado","amarillo","naranja","rosa"};
 
-        HashMap<String, String> colorIngles = new HashMap<String, String>();
-        HashMap<String, String> colorEspaniol = new HashMap<String, String>();
+        HashMap<String, String> espaniolIngles = new HashMap<String, String>();
+        HashMap<String, String> espaniolRgb = new HashMap<String, String>();
+        
+        
         
         for(int i = 0; i < color.length; i++){
-            colorIngles.put(spain[i].toLowerCase(), england[i]);
-            colorEspaniol.put(spain[i].toLowerCase(), color[i].toLowerCase());
+            espaniolIngles.put(spain[i].toLowerCase(), england[i]);
+            espaniolRgb.put(spain[i].toLowerCase(), color[i].toLowerCase());
         }
         
         System.out.println("Introduzca un color: ");
         String respuesta = t.next();
         
-        if(colorEspaniol.containsKey(respuesta)){
-            String colorString = colorEspaniol.get(respuesta);
-            System.out.println("El color " + respuesta + " en inglés es " 
-            + colorIngles.get(respuesta));
+        System.out.println("--------------------------------------------------------------------------------------");
+
+        if(espaniolRgb.containsKey(respuesta)){
+            System.out.println("El color " + respuesta + " es " 
+            + espaniolIngles.get(respuesta) + " y el código RGB es " + espaniolRgb.get(respuesta));
         }else{
             System.out.println("Color inexistente!");
         }
